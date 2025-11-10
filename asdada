@@ -1,0 +1,16 @@
+main.py
+meme_dict = {
+            "CRINGE": "Algo vergonhoso ou constrangedor",
+            "STALKEAR": "Investigar a vida de alguém online",
+            "BISCOITAR": "Postar algo apenas para chamar a atenção",
+            "HATER": "Pessoa que esta constantemente criticando os outros"
+            }
+
+print('^_^ !!! !!!Bem-vindo!!! !!! ^_^')
+word = input("Digite uma palavra moderna que você não entende (escreva todo a palavra em letras maiúsculas): ")
+if word in meme_dict.keys():
+    # O que devemos fazer se a palavra for encontrada?
+        print('Significado da tal palavra digitada:', meme_dict[word])
+else:
+    # O que devemos fazer se a palavra não for encontrada?
+    print('ops, não tem esta palavra no dicionario, tente outra')
